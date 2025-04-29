@@ -1,0 +1,278 @@
+﻿  functions.cpp
+E:\Users\Александр\source\repos\Templates\Templates\functions.cpp(4,6): error C2382: swapValues: переопределение; разные спецификации исключений
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(12,6):
+   см. объявление "swapValues"
+  
+E:\Users\Александр\source\repos\Templates\Templates\functions.cpp(4,6): error C2995: void swapValues(T &,T &) noexcept: шаблон функции уже определен
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(12,6):
+   см. объявление "swapValues"
+  
+E:\Users\Александр\source\repos\Templates\Templates\functions.cpp(11,3): error C2995: T findMin(const T [],int): шаблон функции уже определен
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(20,3):
+   см. объявление "findMin"
+  
+  Templates.cpp
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(1,4): error C2014: команда препроцессора не должна начинаться с пробела
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h(2361,1): error C2144: синтаксическая ошибка: перед "int" требуется ";"
+  (компиляция исходного файла "Templates.cpp")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\sal.h(2361,8): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Templates.cpp")
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(11,6): error C2382: swapValues: переопределение; разные спецификации исключений
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(12,6):
+   см. объявление "swapValues"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(11,6): error C2995: void swapValues(T &,T &) noexcept: шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(12,6):
+   см. объявление "swapValues"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(19,3): error C2995: T findMin(const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(20,3):
+   см. объявление "findMin"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(28,3): error C2995: T arraySum(const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(29,3):
+   см. объявление "arraySum"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(38,6): error C2995: void copyArray(const T [],T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(35,6):
+   см. объявление "copyArray"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(44,6): error C2382: areEqual: переопределение; разные спецификации исключений
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(44,6):
+   см. объявление "areEqual"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(44,6): error C2995: bool areEqual(const T &,const T &) noexcept: шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(44,6):
+   см. объявление "areEqual"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(50,6): error C2995: void reverseArray(T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(50,6):
+   см. объявление "reverseArray"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(56,5): error C2995: int findElement(const T [],int,const T &): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(59,5):
+   см. объявление "findElement"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(63,16): error C2995: std::vector<T,std::allocator<_Ty>> mergeArrays(const T [],int,const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(67,16):
+   см. объявление "mergeArrays"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(73,8): error C2995: double arrayAverage(const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(77,8):
+   см. объявление "arrayAverage"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(82,16): error C2995: std::vector<T,std::allocator<_Ty>> filterArray(const T [],int,Predicate): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(86,16):
+   см. объявление "filterArray"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(94,3): error C2995: T findSecondMax(const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(98,3):
+   см. объявление "findSecondMax"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(116,16): error C2995: std::vector<T,std::allocator<_Ty>> arrayToVector(const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(120,16):
+   см. объявление "arrayToVector"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(122,16): error C2995: std::vector<T,std::allocator<_Ty>> arrayIntersection(const T [],int,const T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(129,16):
+   см. объявление "arrayIntersection"
+  
+E:\Users\Александр\source\repos\Templates\Templates\classes.h(134,6): error C2995: void bubbleSort(T [],int): шаблон функции уже определен
+  (компиляция исходного файла "Templates.cpp")
+  E:\Users\Александр\source\repos\Templates\Templates\functions.h(142,6):
+   см. объявление "bubbleSort"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(50,13): error C2065: swapValues: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(55,13): error C2065: Pair: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(55,18): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(56,41): error C2955: "std::pair": для использования класс шаблон требуется список аргументов шаблон
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(222,1):
+   см. объявление "std::pair"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(56,77): error C2955: "std::pair": для использования класс шаблон требуется список аргументов шаблон
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(222,1):
+   см. объявление "std::pair"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(62,84): error C2065: findMin: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(62,91): error C2563: несоответствие в списке формальных параметров
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(62,91): error C2568: <<: не удается разрешить перегрузку функции
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(62,91):
+  может быть "T findMin(const T [],int)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(66,13): error C2065: Point: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(66,19): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(67,13): error C2065: Point: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(67,19): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(68,51): error C2065: p3: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(68,72): error C2065: p3: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(74,73): error C2065: arraySum: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(74,81): error C2563: несоответствие в списке формальных параметров
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(74,81): error C2568: <<: не удается разрешить перегрузку функции
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(74,81):
+  может быть "T arraySum(const T [],int)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(78,13): error C2065: Stack: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(78,19): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(79,13): error C2065: stack: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(80,13): error C2065: stack: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(81,69): error C2065: stack: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(82,13): error C2065: stack: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(83,73): error C2065: stack: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(90,13): error C2065: copyArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(99,13): error C2065: Array: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(99,19): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(101,23): error C2429: для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17" 
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(101,23): error C2371: i: переопределение; различные базовые типы
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(100,22):
+   см. объявление "i"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(103,74): error C2955: "std::array": для использования класс шаблон требуется список аргументов шаблон
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(147,7):
+   см. объявление "std::array"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(107,52): error C2065: areEqual: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(107,60): error C2440: ?: невозможно преобразовать "bool (__cdecl *)(const T &,const T &) noexcept" в "bool"
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(107,60):
+  Контекст не позволяет устранить неоднозначность перегруженной функции
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(111,13): error C2065: Complex: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(111,21): error C2062: тип "double" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(112,13): error C2065: Complex: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(112,21): error C2062: тип "double" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(113,73): error C2065: c3: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(113,98): error C2065: c3: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(119,13): error C2065: reverseArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(128,13): error C2065: Queue: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(128,19): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(129,13): error C2065: q: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(130,13): error C2065: q: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(131,71): error C2065: q: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(132,13): error C2065: q: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(133,75): error C2065: q: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(139,78): error C2065: findElement: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(139,89): error C2563: несоответствие в списке формальных параметров
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(139,89): error C2568: <<: не удается разрешить перегрузку функции
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(139,89):
+  может быть "int findElement(const T [],int,const T &)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(143,13): error C2065: DynamicArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(143,26): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(144,13): error C2065: dynArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(145,13): error C2065: dynArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(146,81): error C2065: dynArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(154,34): error C2065: mergeArrays: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(154,32): error C2440: инициализация: невозможно преобразовать "std::vector<T,std::allocator<_Ty>> (__cdecl *)(const T [],int,const T [],int)" в "std::vector<int,std::allocator<int>>"
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(154,32):
+  "std::vector<int,std::allocator<int>>::vector": ни одна перегруженная функция не может преобразовать все типы аргументов
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(654,5):
+  	может быть "std::vector<int,std::allocator<int>>::vector(std::initializer_list<_Ty>,const _Alloc &)"
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+  		E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(154,32):
+  		"std::vector<int,std::allocator<int>>::vector(std::initializer_list<_Ty>,const _Alloc &)": невозможно преобразовать аргумент 1 из "std::vector<T,std::allocator<_Ty>> (__cdecl *)(const T [],int,const T [],int)" в "std::initializer_list<_Ty>"
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+          and
+          [
+              _Ty=int
+          ]
+  			E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(154,45):
+  			Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(627,5):
+  	или       "std::vector<int,std::allocator<int>>::vector(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Alloc=std::allocator<int>
+          ]
+  	E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(154,32):
+  	при попытке сопоставить список аргументов "(overloaded-function)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(163,13): error C2065: Matrix: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(163,20): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(164,13): error C2065: Matrix: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(164,20): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(166,13): error C2065: mat3: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(172,75): error C2065: arrayAverage: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(172,87): error C2563: несоответствие в списке формальных параметров
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(172,87): error C2568: <<: не удается разрешить перегрузку функции
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(172,87):
+  может быть "double arrayAverage(const T [],int)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(176,13): error C2065: List: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(176,18): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(177,13): error C2065: lst: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(178,13): error C2065: lst: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(179,69): error C2065: lst: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(185,36): error C2065: filterArray: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(185,34): error C2440: инициализация: невозможно преобразовать "std::vector<T,std::allocator<_Ty>> (__cdecl *)(const T [],int,Predicate)" в "std::vector<int,std::allocator<int>>"
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(185,34):
+  "std::vector<int,std::allocator<int>>::vector": ни одна перегруженная функция не может преобразовать все типы аргументов
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(654,5):
+  	может быть "std::vector<int,std::allocator<int>>::vector(std::initializer_list<_Ty>,const _Alloc &)"
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+  		E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(185,34):
+  		"std::vector<int,std::allocator<int>>::vector(std::initializer_list<_Ty>,const _Alloc &)": невозможно преобразовать аргумент 1 из "std::vector<T,std::allocator<_Ty>> (__cdecl *)(const T [],int,Predicate)" в "std::initializer_list<_Ty>"
+          with
+          [
+              _Ty=int,
+              _Alloc=std::allocator<int>
+          ]
+          and
+          [
+              _Ty=int
+          ]
+  			E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(185,47):
+  			Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(627,5):
+  	или       "std::vector<int,std::allocator<int>>::vector(_Iter,_Iter,const _Alloc &)"
+          with
+          [
+              _Alloc=std::allocator<int>
+          ]
+  	E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(185,34):
+  	при попытке сопоставить список аргументов "(overloaded-function)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(194,13): error C2065: Point: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(194,19): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(195,13): error C2065: Triangle: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(195,22): error C2062: тип "int" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(196,68): error C2065: triangle: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(202,99): error C2065: findSecondMax: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(202,112): error C2563: несоответствие в списке формальных параметров
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(202,112): error C2568: <<: не удается разрешить перегрузку функции
+  E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(202,112):
+  может быть "T findSecondMax(const T [],int)"
+  
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(206,13): error C2065: Cube: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(206,18): error C2062: тип "double" не требуется
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(207,48): error C2065: cube: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(207,112): error C2065: cube: необъявленный идентификатор
+E:\Users\Александр\source\repos\Templates\Templates\Templates.cpp(207,112): error C1003: число ошибок превышает 100; остановка компиляции
+  Создание кода...
