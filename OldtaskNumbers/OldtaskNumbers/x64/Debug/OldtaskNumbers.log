@@ -1,0 +1,5 @@
+﻿  OldtaskNumbers.cpp
+E:\Users\Александр\source\repos\OldtaskNumbers\OldtaskNumbers\OldtaskNumbers.cpp(123,80): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+E:\Users\Александр\source\repos\OldtaskNumbers\OldtaskNumbers\OldtaskNumbers.cpp(161,16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\Users\Александр\source\repos\OldtaskNumbers\OldtaskNumbers\OldtaskNumbers.cpp(216,25): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  OldtaskNumbers.vcxproj -> E:\Users\Александр\source\repos\OldtaskNumbers\x64\Debug\OldtaskNumbers.exe
